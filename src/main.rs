@@ -3,6 +3,17 @@ fn main() {
     let x = x + 1;
     let x = x * 2;
     println!("The value of x is: {}", x);
+
+ // addition
+ let _sum = 5 + 10;
+ // subtraction
+ let _difference = 95.5 - 4.3;
+ // multiplication
+ let _product = 4 * 30;
+ // division
+ let _quotient = 56.7 / 32.2;
+ // remainder
+ let _remainder = 43 % 5;
 }
 
 // constants are values that are bound to a name and are not allowed to change, but there are a few differences between 
@@ -18,3 +29,12 @@ fn main() {
 // because on modern CPUs it’s roughly the same speed as f32 but is capable of more precision.
 // The f32 type is a single-precision float, and f64 has double precision.
 
+// char type is the language’s most primitive alphabetic type, and the following code shows one way to use it. 
+// (Note that char literals are specified with single quotes, as opposed to string literals, which use double quotes.)
+// fn main() {
+//     let c = 'z';
+//     let z = 'Ƶ';
+//     let heart_eyed_cat = '�';
+//    }
+
+//
