@@ -62,3 +62,20 @@ fn main() {
 //  let six_point_four = x.1;
 //  let one = x.2;
 //
+//
+// Unlike a tuple, every element of an array must have the same type. Arrays in Rust are different from arrays in some 
+// other languages because arrays in Rust have a fixed length, like tuples.
+// In Rust, the values going into an array are written as a comma-separated list inside square brackets:
+// fn main() {
+//  let a = [1, 2, 3, 4, 5];
+// }
+// Vector types are allowed to shrink and grow. Array types cannot.
+//
+// You would write an array’s type by using square brackets, and within the brackets include the 
+// type of each element, a semicolon, and then the number of elements in the array, like so:
+// let a: [i32; 5] = [1, 2, 3, 4, 5];
+// i32 is the type of each element. The number 5 indicates the element contains five items.
+//
+// let a = [3; 5];
+// The array named a will contain 5 elements that will all be set to the value 3 initially. 
+// This is the same as writing let a = [3, 3, 3, 3, 3]; but in a more concise way.
