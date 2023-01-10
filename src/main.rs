@@ -79,3 +79,13 @@ fn main() {
 // let a = [3; 5];
 // The array named a will contain 5 elements that will all be set to the value 3 initially. 
 // This is the same as writing let a = [3, 3, 3, 3, 3]; but in a more concise way.
+//
+//
+// An array is a single chunk of memory allocated on the stack. You can access elements of an array using indexing, like this:
+// fn main() {
+//  let a = [1, 2, 3, 4, 5];
+//  let first = a[0];
+//  let second = a[1];
+// }
+// In this example, the variable named first will get the value 1, because that is the value at index [0] in the array. 
+// The variable named second will get the value 2 from index [1] in the array.
